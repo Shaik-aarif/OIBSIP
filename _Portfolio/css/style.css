@@ -1,0 +1,457 @@
+
+/* ++++++++++++++++++++++++++++++++++++++++ global  css starts  ++++++++++++++++++++++++++++++++++++++++++*/
+html, body{
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+} 
+.title-text{
+    font: normal bold 50px/40px ;
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+p.para{
+    color: #777777;
+}
+
+.red{
+    color: red;
+}
+.black{
+    color: black;
+}
+.white{
+    color: #fff;
+}
+
+.navbar_fixed{
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    box-shadow:0 10px 30px rgba(57 ,56 ,61,0.205);
+    z-index: 999;
+    transition: background 0.4s ease;
+}
+/* ++++++++++++++++++++++++++++++++++++++++ global  css ends  ++++++++++++++++++++++++++++++++++++++++++*/
+
+
+
+
+
+
+
+/* +++++++++++++++++++++++++Navbar start+++++++++++++++++++++++++ */
+
+.navbar-brand{
+
+    padding: 0rem 32px;
+    color: #ff0000;
+}
+
+.header-space .navbar{
+    padding: 5px 10% 0 ;
+}
+
+.header-space .navbar .nav-link{
+    text-align: right;
+    font-style:normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 2px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    padding: 27px;
+    color: #000;
+}
+#navbarNav .nav-link.active{
+    color: #ff0000;
+   
+}
+#navbarNav .nav-link:hover{
+    color: #ff0000;
+   
+}
+
+
+/* +++++++++++++++++++++++++Navbar end +++++++++++++++++++++++++*/
+
+
+/*+++++++++++++++++++++++++ main section start +++++++++++++++++++++++++ */
+
+#main{
+    padding: 1% 15%;
+    padding-top: 7%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.banner-img img{
+    height:310px;
+    width: 310px;
+}
+.container .title h3{
+    font-size: 2rem;
+    padding-top: 20%;
+    font-weight: 500;
+}
+
+.container .title h1{
+    font-size: 2.5rem;
+    color: #ff0000;
+}
+.container .title span{
+    color: #000;    
+}
+.container .title h4{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.container .banner-img{
+    padding-top: 4%;
+    padding-left: 100px;
+}
+.main .site-buttons a.p-button{
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+    margin-right: 2rem;
+    padding: 3px 7px;
+    padding-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background .3s ease;
+}
+.main .site-buttons a.p-button:hover{
+    background-color: #fff;
+    color: red;
+    border-color: red;
+    transform: scale(1.04);
+}
+.main .site-buttons a.s-button{
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    margin-top: 20px;
+    padding: 3px 13px;
+    padding-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background .3s ease;
+}
+.main .site-buttons a.s-button:hover{
+    background-color: red;
+    color: #fff;
+    transform: scale(1.04);
+
+}
+
+/* +++++++++++++++++++++++++main section end +++++++++++++++++++++++++ */
+
+
+/*+++++++++++++++++++++++++about section starts+++++++++++++++++++++++++*/
+.about-space{
+    padding: 7% 0% ;
+}
+
+.about-space .intro-img img{
+    height: fit-content;
+    width: fit-content;
+    rotate: y 180deg;
+    position: relative;
+    transform: scale(0.7);
+    transition: all 0.3s ease;
+    top: 100px;
+    left: 50px;
+}
+.about-space .intro-img img:hover{
+    transform: scale(0.75);
+}
+.about-space .about-title .title-text{
+    font-size: 2.5rem;
+}
+
+.about-space .about-title .title-text > span{
+    display: block;
+    line-height: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.about-space .paragraph{
+    height: 300px;
+}
+.about-space button{
+   margin-left: 350px;
+}
+
+/*+++++++++++++++++++++++++ about section ends+++++++++++++++++++++++++ */
+
+
+/*+++++++++++++++++++++++++skills section starts+++++++++++++++++++++++++*/
+
+.skills-area{
+    padding: 5% 8%;
+    background-color: red;
+    background-image: url(../img/bgdesin-3.png);
+    background-repeat: no-repeat;
+    background-size: 1380px 676px;
+    background-position: left top;
+}
+.skills-area img{
+    width: 50px;
+}
+.skills-area i{
+    font-size: 45px;
+}
+.skills-area .skills-title .title-text{
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+.skills-area .skills{
+    height: 340px;
+    margin: 10px 0px;
+    padding:  15% 5% ;
+    transition: box-shadow .5s ease;
+    border-radius: 3%;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+.skills-area .skills:hover{
+    box-shadow:0 10px 30px rgba(57 ,56 ,61,0.205);
+    box-shadow: 0 10px 30px rgba(24, 23, 25, 0.598);
+    transform: scale(1.04);
+}
+.skills-area .skills-list .card-title{
+    color: black;
+    padding-bottom:7px ;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+}
+.container.skills-list{
+    padding: 0 5%;
+}
+/*+++++++++++++++++++++++++skills section ends+++++++++++++++++++++++++*/
+
+
+/*+++++++++++++++++++++++++projects  section starts+++++++++++++++++++++++++*/
+
+.project-area{
+    padding: 5% 15%;
+}
+
+.project-area .button-group button{
+    background: transparent;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase; 
+}
+.project-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.title h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 10px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.project-title h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 10px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.project-area .row.grid{
+    transform: scale(1);
+}
+.project-area .title.py-4.todo ,.project-area .title.py-4.mp {
+    margin-left: 47px;
+}
+.project-area .our-project .img a img{
+    transition: all 0.2s ease;
+
+}
+
+.project-area .our-project .img  img.todo ,.project-area .our-project .img  img.mp{
+    margin-left: 47px;
+}
+.project-area .our-project .img a:hover img{
+    box-shadow: 0 4px 15px rgba(0, 0,0, 0.3);
+    transform: scale(1.05);
+    filter: brightness(1.1)  drop-shadow(1px 8px 30px #b1afaf);
+}
+
+
+/* +++++++++++++++++++++++++projects  section ends +++++++++++++++++++++++++*/
+
+
+/*+++++++++++++++++++++++++ profiles  section starts+++++++++++++++++++++++++ */
+
+.profiles-area{
+    padding: 5% 20%;
+}
+.profiles-area .profile-text p{
+    padding: 5px 10px ;
+}
+.profiles-area .profile-item{
+    background: #ffffff10;
+    box-shadow:0 10px 30px rgba(57 ,56 ,61,0.205);
+    margin: 3rem 5px;
+}
+.profiles-area .profile-item a {
+    color: red;
+    height: 30px;
+    width:30px;
+    border-radius: 50%;
+}
+.profiles-area .profile-item i{
+    font-size: 22px;
+}
+.profiles-area .profile-item .clik-here{
+    
+    margin-left:30px;
+    height: fit-content;
+
+    
+}
+.profiles-area .profile-item .profile-img{
+    padding: 1rem;
+}
+.profiles-area .profile-item .profile-img img{
+    height: 80px;
+    width: 300px;
+}
+.profiles-area .profile-item .profile-text{
+    padding-top: 2rem;
+}
+.profiles-area .profile-item .profile-text h4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.profiles-area .profile-item .profile-text p{
+    font-size: 12px;
+}
+
+.profiles-area .owl-carousel .profile-item.row{
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.profiles-area .owl-carousel .owl-dots .owl-dot.active span{
+    background: red;
+    width: 12px;
+    height: 12px;
+}
+
+/*+++++++++++++++++++++++++profiles  section ends+++++++++++++++++++++++++*/
+
+/*+++++++++++++++++++++++++contact  section starts+++++++++++++++++++++++++*/
+
+.contact-bgc{
+    background-color: red;
+    
+}
+
+.contact-us-area{
+    padding: 5% 10%;
+}
+.contact-us-area .contact{
+    background-color: red;
+    padding: 1rem 0;
+    margin: 1rem auto;
+}
+
+.contact-us-area .contact .contact-title h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}
+
+.contact-us-area .contact .contact-title p{
+    color: whitesmoke;
+    padding: 0rem 4rem;
+}
+
+
+
+
+
+.btn--contact{
+    background: whitesmoke;
+    color: #000;
+    padding: .7rem 2rem;
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s ease;
+
+}
+.btn--contact:hover{
+    background-color: #fff;
+    transform: scale(1.04);
+    
+}
+
+/*+++++++++++++++++++++++++contact  section ends+++++++++++++++++++++++++*/
+
+
+/*+++++++++++++++++++++++++footer  section starts+++++++++++++++++++++++++*/
+
+.footer-area{
+    padding: 5rem 0;
+}
+
+.footer-area .social h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+footer.footer-area .social a > i{
+    font-size:22px;
+    padding: 2rem;
+    color: red;
+    transition: all 0.2s ease;
+}
+
+footer.footer-area .social a:hover > i{
+    color: #000;
+    transform: scale(1.24);
+}
+/*+++++++++++++++++++++++++footer  section ends+++++++++++++++++++++++++*/
+
+
+
+
+
+
+
+
+
+

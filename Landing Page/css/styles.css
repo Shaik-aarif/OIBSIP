@@ -1,0 +1,208 @@
+body{
+     font-family: 'Montserrat-black', sans-serif;
+     text-align: center;
+
+}
+
+
+h1 , h2 , h3 , h4 , h5 , h6{
+    font-family: 'Montserrat-bold', sans-serif;
+    font-weight: bold;
+   
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/*  1. title section */
+
+#title{
+    background-color: #F0EBCE;
+    text-align: left;
+    
+}
+
+/* (*) nav bar */
+
+.nav-item{
+    padding: 0 15px;
+    color: #1A120B;
+}
+.dropdown ul{
+    background-color: #F0EBCE;
+
+}
+.dropdown li :hover{
+    background-color:#1A120B;
+    color: #F0EBCE;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.h1-title{
+    padding-top: 85px;
+    line-height: 1.5;
+    font-size: 3rem;
+    color: #1A120B;
+}
+
+
+/*  (*) download - buttons */
+.download-btn{
+    margin:3% 5% 0 2% ;
+}
+.btn {
+    
+    font-family: Arial;
+    color: #F0EBCE;
+    font-size: 15px;
+    background: #1A120B;
+    padding: 10px 20px 10px 20px;
+    border: solid #1A120B 1px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #F0EBCE;
+    color : #1A120B;
+    text-decoration: none;
+  }
+
+/* -------------------------------------------------------------------- */
+
+/* 2. features section */
+
+#features{
+    margin: 7% 15%;
+}
+
+.featurebox{
+    padding: 4%;
+    
+}
+.h3-features{
+    color: #3C2A21;
+}
+.icon{
+    margin-bottom: 25%;
+    color: #3C2A21;
+}
+.icon:hover{
+    color: #D5CEA3;
+}
+
+/* -------------------------------------------------------------------- */
+
+/*  3. Carousel Section */
+
+#categories{
+    padding: 7% 15%;
+    background: #3C2A21;
+    
+}
+#partners{
+    background: #3C2A21;
+    
+    padding-bottom: 2%;
+}
+.h2_carousel{
+    color: #F0EBCE;
+    padding-bottom: 5%;
+}
+.formal , .Watches , .shoes{
+    width: 200px;
+    height: 300px;
+    margin: 3% 0% 0;
+    border-radius: 100%;
+}
+.carousel-control-next-icon{
+    margin-left: 100px;
+    margin-top: 82px;
+   
+}
+.carousel-control-prev-icon{
+    margin-right: 100px;
+    margin-top: 82px;
+   
+}
+.logo{
+width: 10%;
+margin-left: 3%;
+margin-right: 3%;
+}
+
+/* -------------------------------------------------------------------- */
+
+
+/* pricing section */
+#pricing{
+    
+    padding: 100px;
+}
+.pricing-col{
+
+    padding: 3% 2%;
+}
+.card-header{
+    background-color: #1A120B;
+    color: #F0EBCE;
+}
+.card-body{
+    background-color:#F0EBCE ;
+}
+
+
+
+/* -------------------------------------------------------------------- */
+
+
+/* cta section */
+
+#cta{
+padding: 7% 15%;
+background-color: #F0EBCE; 
+
+}
+
+.h1-cta{
+    line-height: 1.5;
+    font-size: 3rem;
+    color: #1A120B;
+}
+
+/* -------------------------------------------------------------------- */
+
+/* footer section */
+
+#footer{
+background-color: #fff; 
+
+padding: 7% 15%;
+
+}
+.social-icon{
+    padding: 20px 10px;
+    text-decoration: none;
+    color: #1A120B;
+}
+
+/* -------------------------------------------------------------------- */
+
+
+/* media Queries */
+
+@media (max-width : 992px) {
+    #title{
+        text-align: center;
+    }
+    .icon{
+        margin-bottom: 10%;
+    }
+    
+}
+
+
+

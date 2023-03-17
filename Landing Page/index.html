@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>ShopEasy</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- bootstrap scrips -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <!-- css style sheets -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <!-- /* -------------------------------------------------------------------- */ -->
+
+    <section id="title">
+      <!-- Nav Bar -->
+
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
+          <a href="" class="navbar-brand ms-2"
+            ><i class="fa-solid fa-store"></i> ShopEasy</a
+          >
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#footer" class="nav-link">contact</a>
+              </li>
+              <li class="nav-item">
+                <a href="#cta" class="nav-link">Download</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#pricing" class="nav-link">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-expanded="false"
+                  >Categories</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#categories">Formals</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#categories">Watches</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#categories">Shoes</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="h1-title">Shop easy and make your life easy.</h1>
+            <button type="button" class="btn btn-dark download-btn">
+              <i class="fa-brands fa-apple"></i> Download
+            </button>
+            <button type="button" class="btn btn-outline-dark download-btn">
+              <i class="fa-brands fa-google-play"></i> Download
+            </button>
+          </div>
+          <div class="frontimg col-lg-6">
+            <img src="images/shop.png" alt="iphone-mockup" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /* -------------------------------------------------------------------- */ -->
+
+    <!-- Features -->
+
+    <section id="features">
+      <div class="row">
+        <div class="featurebox col-lg-4">
+          <i class="icon fa-solid fa-store fa-3x"></i>
+          <h3 class="h3-features">Shopping Cart</h3>
+          <p>
+            It allows customers to purchase items from your shop or store a list
+            of the items they wish to purchase in the future..
+          </p>
+        </div>
+        <div class="featurebox col-lg-4">
+          <i class="icon fa-solid fa-user-group fa-3x"></i>
+          <h3 class="h3-features">User Friendly</h3>
+          <p>
+            Easy and simple to use ,it prioritize ease of use and convenience
+            for the user. .
+          </p>
+        </div>
+        <div class="featurebox col-lg-4">
+          <i class="icon fa-solid fa-user-shield fa-3x"></i>
+          <h3 class="h3-features">Secure Payment</h3>
+          <p>
+            guarantees the protection of personal and financial data of the user
+            during online transactions.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- /* -------------------------------------------------------------------- */ -->
+
+    <!-- Carousel -->
+
+    <section id="categories">
+      <div id="cat-carousel" class="carousel slide" data-bs-touch="false">
+        <div class="carousel-inner">
+          <div id="formals" class="carousel-item active">
+            <h2 class="h2_carousel">Formal Wear</h2>
+            <div class="row">
+              <div class="col-lg-4 col-md-4">
+                <img
+                  class="formal"
+                  src="images/formal2.jpg"
+                  alt="dog-profile"
+                />
+              </div>
+              <div class="col-lg-4 col-md-4">
+                <img class="formal" src="images/formal.jpg" alt="dog-profile" />
+              </div>
+              <div class="col-lg-4 col-md-4">
+                <img
+                  class="formal"
+                  src="images/formal3.jpg"
+                  alt="dog-profile"
+                />
+              </div>
+            </div>
+          </div>
+          <div id="Shoes" class="carousel-item">
+            <h2 class="h2_carousel">Shoes</h2>
+            <div class="row">
+              <div class="col-lg-4 col-md-4">
+                <img class="shoes" src="images/shoe1.jpg" alt="dog-profile" />
+              </div>
+              <div class="col-lg-4 col-md-4">
+                <img class="shoes" src="images/shoe2.jpg" alt="dog-profile" />
+              </div>
+              <div class="col-lg-4 col-md-4">
+                <img class="shoes" src="images/shoe3.jpg" alt="dog-profile" />
+              </div>
+            </div>
+          </div>
+          <div id="Watches" class="carousel-item">
+            <h2 class="h2_carousel">Watches</h2>
+            <div class="row">
+              <div class="col-lg-4 col-md-4">
+                <img
+                  class="Watches"
+                  src="images/watch1.jpg"
+                  alt="dog-profile"
+                />
+              </div>
+              <div class="col-lg-4 col-md-4">
+                <img
+                  class="Watches"
+                  src="images/watch2.jpg"
+                  alt="dog-profile"
+                />
+              </div>
+              <div class="col-lg-4 col-md-4">
+                <img
+                  class="Watches"
+                  src="images/watch3.jpg"
+                  alt="dog-profile"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#cat-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#cat-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- /* -------------------------------------------------------------------- */ -->
+
+    <!-- shopping partners -->
+
+    <section id="partners">
+      <img class="logo" src="images/logo1.png" alt="" />
+      <img class="logo" src="images/logo2.png" alt="" />
+      <img class="logo" src="images/logo3.png" alt="" />
+      <img class="logo" src="images/logo4.png" alt="" />
+      <img class="logo" src="images/logo5.png" alt="" />
+      <img class="logo" src="images/logo6.png" alt="" />
+    </section>
+
+    <!-- /* -------------------------------------------------------------------- */ -->
+
+    <!-- Pricing -->
+
+    <section id="pricing">
+      <h2 style="color: #3c2a21">A Plan for you to grab good deals.</h2>
+      <p>Simple and affordable price plans for your needs.</p>
+
+      <div class="row">
+        <div class="pricing-col col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="h3-pricing">Basic</h3>
+            </div>
+            <div class="card-body">
+              <h2 style="color: #3c2a21">Free</h2>
+              <p>Special Offers every 10 days</p>
+              <p>5% off on every product</p>
+              <p>No delivery charges</p>
+              <div class="d-grid">
+                <button type="button" class="btn btn-lg btn-dark">
+                  Sign Up
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-col col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="h3-pricing">Pro</h3>
+            </div>
+            <div class="card-body">
+              <h2 style="color: #3c2a21">$49 / mo</h2>
+              <p>Special Offers every 5 days</p>
+              <p>25% off on every product</p>
+              <p>No delivery charges</p>
+              <div class="d-grid gap-2">
+                <button type="button" class="btn btn-lg btn-block btn-dark">
+                  Sign Up
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-col col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="h3-pricing">Premium</h3>
+            </div>
+            <div class="card-body">
+              <h2 style="color: #3c2a21">$99 / mo</h2>
+              <p>Special Offers every day</p>
+              <p>40% off on every product</p>
+              <p>No delivery charges</p>
+              <div class="d-grid">
+                <button type="button" class="btn btn-lg btn-dark">
+                  Sign Up
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- /* -------------------------------------------------------------------- */ -->
+
+    <!-- Call to Action -->
+
+    <section id="cta">
+      <h1 class="h1-cta">Find the Good Deal for a Good Price.</h1>
+      <button type="button" class="btn btn-dark download-btn">
+        <i class="fa-brands fa-apple"></i> Download
+      </button>
+      <button type="button" class="btn btn-outline-dark download-btn">
+        <i class="fa-brands fa-google-play"></i> Download
+      </button>
+    </section>
+
+    <!-- /* -------------------------------------------------------------------- */ -->
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <a href="https://www.instagram.com/ig._.arif/" target="_blank"><i class="social-icon fa-brands fa-instagram"></i></a>
+      <a href="https://github.com/Shaik-aarif" target="_blank"><i class="social-icon fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/arif-shaik-628989232/" target="_blank"><i class="social-icon fa-brands fa-linkedin"></i></a>
+      <p>© Copyright ShopEasy / arif shaik</p>
+    </footer>
+  </body>
+</html>
